@@ -1,35 +1,35 @@
 {
   "projectData": [
     {
-      "image": "/assets/images/express.png",
+      "image": "./assets/images/express.png",
       "task": "Set up the server client and routes with ExpressJS"
     },
     {
-      "image": "/assets/images/mongodb.png",
+      "image": "./assets/images/mongodb.png",
       "task": "Set up a user database and a to do list database with MongoDB"
     },
     {
-      "image": "/assets/images/angular.png",
+      "image": "./assets/images/angular.png",
       "task": "Created a user registration and log in forms"
     },
     {
-      "image": "/assets/images/node.png",
+      "image": "./assets/images/node.png",
       "task": "Added functionality for the user registration and log in forms"
     },
     {
-      "image": "/assets/images/node.png",
+      "image": "./assets/images/node.png",
       "task": "Created a user authentication token using JWT"
     },
     {
-      "image": "/assets/images/angular.png",
+      "image": "./assets/images/angular.png",
       "task": "Set up the front end app and navigation routes with Angular 4"
     },
     {
-      "image": "/assets/images/angular.png",
+      "image": "./assets/images/angular.png",
       "task": "Added an error message system for user registration and log in pages"
     },
     {
-      "image": "/assets/images/angular.png",
+      "image": "./assets/images/angular.png",
       "task": "Protected links and routes with guards so they can't be accessed without signing in"
     }
   ]
