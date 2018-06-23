@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class SkillsService {
 
-  private skillsUrl = '/assets/skills.json';
+  private skillsUrl = './assets/skills.json';
 
   constructor(private http: HttpClient) { }
 

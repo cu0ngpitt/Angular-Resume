@@ -5,7 +5,7 @@ import { Education } from '../models/education';
 
 @Injectable()
 export class EducationService {
-  private edsUrl = '/assets/education.json';
+  private edsUrl = './assets/education.json';
 
   constructor(private http: HttpClient) { }
 
