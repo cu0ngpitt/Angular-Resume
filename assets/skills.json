@@ -1,0 +1,52 @@
+{
+  "skillsData": [
+    {
+      "skill": "HTML",
+      "level": "3"
+    },
+    {
+      "skill": "CSS",
+      "level": "3"
+    },
+    {
+      "skill": "Javascript",
+      "level": "3"
+    },
+    {
+      "skill": "Typescript",
+      "level": "3"
+    },
+    {
+      "skill": "Angular2",
+      "level": "3"
+    },
+    {
+      "skill": "Node.js",
+      "level": "3"
+    },
+    {
+      "skill": "Express.js",
+      "level": "3"
+    },
+    {
+      "skill": "MongoDB",
+      "level": "2"
+    },
+    {
+      "skill": "Mongoose",
+      "level": "2"
+    },
+    {
+      "skill": "Git",
+      "level": "3"
+    },
+    {
+      "skill": "Agile/Scrum",
+      "level": "3"
+    },
+    {
+      "skill": "Bootstrap",
+      "level": "2"
+    }
+  ]
+}

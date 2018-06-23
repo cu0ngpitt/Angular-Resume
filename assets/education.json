@@ -1,0 +1,72 @@
+{
+  "educationData": [
+    {
+      "codeschool": [
+        {
+          "complete": "true",
+          "course":"Front end foundations"
+        },
+        {
+          "complete": "false",
+          "course": "Front end formations"
+        },
+        {
+          "course": "Css cross country"
+        },
+        {
+          "course": "Fundamentals of web design"
+        },
+        {
+          "course": "The elements of web design"
+        },
+        {
+          "course": "Try Jquery"
+        },
+        {
+          "course": "Javascript road trip part 1"
+        },
+        {
+          "course": "Javascript road trip part 2"
+        },
+        {
+          "course": "Javascript road trip part 3"
+        },
+        {
+          "course": "Javascript best practices"
+        },
+        {
+          "course": "Javascript ES2015 – the shape of js to come"
+        },
+        {
+          "course": "Real time web with node.js"
+        },
+        {
+          "course": "Building blocks of express.js"
+        },
+        {
+          "course": "Accelerating through angular"
+        }
+      ],
+      "egghead": [
+        {
+          "course": "Getting started with angular"
+        },
+        {
+          "course": "Learn HTTP in angular"
+        },
+        {
+          "course": "Angular Service Injection with the Dependency Injector (DI)"
+        },
+        {
+          "course": "Building angular components"
+        },
+        {
+          "course": "Introduction to node: the fundamentals"
+        },
+        {
+          "course": "Getting started with express.js"
+        }
+      ]
+    }
+  ]
+}
