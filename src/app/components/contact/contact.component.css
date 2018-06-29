@@ -1,3 +1,7 @@
+.container {
+  text-align: center;
+}
+
 .form-control {
   background: white;
   padding-left: 40px;
