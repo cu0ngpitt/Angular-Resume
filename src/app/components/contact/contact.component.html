@@ -4,23 +4,42 @@
 
   <hr class="my-5">
 
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Your Name" id="inputDefault">
-    <i class="fas fa-user fa-lg fa-fw" aria-hidden="true"></i>
+  <div [hidden]="submitted">
+    <form (ngSubmit)="onSubmit(contactform)" #contactform="ngForm">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Your Name" id="name" required
+               ngModel name="name">
+        <i class="fas fa-user fa-lg fa-fw" aria-hidden="true"></i>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Your Email" id="email" required
+               ngModel name="email">
+        <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+      </div>
+
+      <div class="form-group">
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message" required
+                  ngModel name="message"></textarea>
+        <i class="fas fa-comment fa-lg fa-fw" aria-hidden="true"></i>
+      </div>
+
+      <div class="buttonHolder">
+        <button type="submit" class="btn btn-primary" [disabled]="!contactform.form.valid">Submit</button>
+      </div>
+    </form>
   </div>
 
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Your Email" id="inputDefault">
-    <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
-  </div>
+  <div [hidden]="!submitted" class="container">
+    <div class="card my-4">
+      <div class="card-body my-4">
+        <h2 class="my-4">Thank you for the message!</h2>
 
-  <div class="form-group">
-    <textarea class="form-control" id="exampleTextarea" rows="4" placeholder="Your message"></textarea>
-    <i class="fas fa-comment fa-lg fa-fw" aria-hidden="true"></i>
-  </div>
+        <p>I will respond to your message withing 72 hours.</p>
+      </div>
+    </div>
 
-  <div class="buttonHolder">
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button class="btn btn-primary" (click)="submitted=false">Leave me another message</button>
   </div>
 
 </body>
