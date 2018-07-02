@@ -10,13 +10,13 @@
     refinement of my code writing. </p><br><br>
 
   <div class="container">
-    <div class="card-columns d-flex justify-content-center">
+    <div class="card-deck">
       <div class="card">
         <div class="card-body">
           <h4 class="card-title">Codeschool.com</h4><br>
-          <ul>
+          <ul class="fa-ul">
             <li class="list" *ngFor="let ed of codeschool">
-              <i class="fas fa-graduation-cap fa-lg"></i>
+              <span class="fa-li"><i class="fas fa-graduation-cap fa-lg"></i></span>
               {{ed.course}}
             </li>
           </ul>
@@ -26,9 +26,9 @@
       <div class="card">
         <div class="card-body">
           <h4 class="card-title">Egghead.io</h4><br>
-          <ul>
+          <ul class="fa-ul">
             <li class="list" *ngFor="let ed of egghead">
-              <i class="fas fa-graduation-cap fa-lg"></i>
+              <span class="fa-li"><i class="fas fa-graduation-cap fa-lg"></i></span>
               {{ed.course}}
             </li>
           </ul>
