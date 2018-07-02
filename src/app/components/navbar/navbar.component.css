@@ -1,8 +1,8 @@
-.navbar-nav {  
+.navbar-nav {
   margin: 0 auto;
+  padding-right: 152px;
 }
 
 .navbar-brand {
   margin: 0;
-  position: absolute;
 }
