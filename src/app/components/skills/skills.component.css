@@ -1,19 +1,11 @@
-body {
-  width: 750px;
-}
-#bulletIcons {
-  margin-right: 3px;
-}
-
 .skill-rating {
-  float: right;
-  padding-right: 40px;
+  float: right;  
 }
 
 .checked {
   color: dodgerBlue;
 }
 
-.card {
-  width: 550px;
+ul {
+  padding-left: 0;
 }
