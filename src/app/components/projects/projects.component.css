@@ -3,5 +3,13 @@
 }
 
 body {
-  width: 940px;
+  max-width: 940px;
+}
+
+.card-body {
+  position: relative;
+}
+.card-body img {
+  position: absolute;
+  left: 24px;
 }
