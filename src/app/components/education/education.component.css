@@ -1,3 +1,7 @@
 body {
-  width: 1175px;
+  max-width: 1175px;
+}
+
+.card {
+  min-width: 315px;
 }
