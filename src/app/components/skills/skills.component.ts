@@ -23,7 +23,7 @@ export class SkillsComponent implements OnInit {
       .subscribe((skills: any) => {
         this.skills = skills.skillsData;
         this.tools = skills.tools;
-      )};
+      });
   }
-
+  
 }
