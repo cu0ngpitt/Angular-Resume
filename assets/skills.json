@@ -35,24 +35,16 @@
     {
       "skill": "Mongoose",
       "level": "2"
-    },
-    {
-      "skill": "Git",
-      "level": "3"
-    },
-    {
-      "skill": "Agile/Scrum",
-      "level": "3"
-    },
-    {
-      "skill": "Bootstrap",
-      "level": "2"
     }
   ],
   "tools": [
     {
       "skill": "Atom",
       "level": "3"
+    },
+    {
+      "skill": "Bootstrap",
+      "level": "2"
     },
     {
       "skill": "GitHub",
@@ -81,6 +73,10 @@
     {
       "skill": "Visual Studios",
       "level": "2"
+    },
+    {
+      "skill": "Agile/Scrum",
+      "level": "3"
     }
   ]
 }
