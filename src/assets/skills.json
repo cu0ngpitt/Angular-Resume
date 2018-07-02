@@ -48,5 +48,39 @@
       "skill": "Bootstrap",
       "level": "2"
     }
+  ],
+  "tools": [
+    {
+      "skill": "Atom",
+      "level": "3"
+    },
+    {
+      "skill": "GitHub",
+      "level": "3"
+    },
+    {
+      "skill": "GitHub Desktop",
+      "level": "3"
+    },
+    {
+      "skill": "GitBash",
+      "level": "2"
+    },
+    {
+      "skill": "Chrome Dev Tools",
+      "level": "2"
+    },
+    {
+      "skill": "Microsoft Word",
+      "level": "4"
+    },
+    {
+      "skill": "Microsoft Excel",
+      "level": "4"
+    },
+    {
+      "skill": "Visual Studios",
+      "level": "2"
+    }
   ]
 }
