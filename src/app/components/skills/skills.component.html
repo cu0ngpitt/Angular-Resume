@@ -8,6 +8,8 @@
     <div class="card-columns d-flex justify-content-center">
       <div class="card">
         <div class="card-body">
+          <h4 class="card-title text-center">Languages & Frameworks</h4>
+          <hr>
           <ul>
             <li class="list lead" *ngFor="let skill of skills">
               <i class="fas fa-cog fa-lg fa-spin"></i>
@@ -23,6 +25,27 @@
                 <i class="fas fa-star fa-lg" *ngIf="skill.level < 4"></i>
                 <i class="fas fa-star fa-lg checked" *ngIf="skill.level >= 5"></i>
                 <i class="fas fa-star fa-lg" *ngIf="skill.level < 5"></i>
+              </div>
+            </li>
+          </ul><br><br>
+
+          <h4 class="card-title text-center">Tools</h4>
+          <hr>
+          <ul>
+            <li class="list lead" *ngFor="let tool of tools">
+              <i class="fas fa-cog fa-lg fa-spin"></i>
+              {{tool.skill}}
+              <div class="skill-rating">
+                <i class="fas fa-star fa-lg checked" *ngIf="tool.level >= 1"></i>
+                <i class="fas fa-star fa-lg" *ngIf="tool.level < 1"></i>
+                <i class="fas fa-star fa-lg checked" *ngIf="tool.level >= 2"></i>
+                <i class="fas fa-star fa-lg" *ngIf="tool.level < 2"></i>
+                <i class="fas fa-star fa-lg checked" *ngIf="tool.level >= 3"></i>
+                <i class="fas fa-star fa-lg" *ngIf="tool.level < 3"></i>
+                <i class="fas fa-star fa-lg checked" *ngIf="tool.level >= 4"></i>
+                <i class="fas fa-star fa-lg" *ngIf="tool.level < 4"></i>
+                <i class="fas fa-star fa-lg checked" *ngIf="tool.level >= 5"></i>
+                <i class="fas fa-star fa-lg" *ngIf="tool.level < 5"></i>
               </div>
             </li>
           </ul>
