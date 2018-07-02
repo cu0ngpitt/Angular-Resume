@@ -10,6 +10,7 @@ import { SkillsService } from '../../services/skills.service';
 })
 export class SkillsComponent implements OnInit {
   skills: Skills[];
+  tools: Skills[];
 
   constructor(private skillsService: SkillsService) { }
 
@@ -19,7 +20,10 @@ export class SkillsComponent implements OnInit {
 
   getSkills(): void{
     this.skillsService.getSkills()
-      .subscribe((skills: any) => this.skills = skills.skillsData);
+      .subscribe((skills: any) => {
+        this.skills = skills.skillsData;
+        this.tools = skills.tools;
+      )};
   }
 
 }
