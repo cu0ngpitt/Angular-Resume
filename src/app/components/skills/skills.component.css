@@ -1,5 +1,5 @@
 .skill-rating {
-  float: right;  
+  float: right;
 }
 
 .checked {
@@ -8,4 +8,8 @@
 
 ul {
   padding-left: 0;
+}
+
+.body {
+  max-width: 600px;
 }
