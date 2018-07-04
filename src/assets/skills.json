@@ -35,16 +35,16 @@
     {
       "skill": "Mongoose",
       "level": "2"
+    },
+    {
+      "skill": "Bootstrap",
+      "level": "2"
     }
   ],
   "tools": [
     {
       "skill": "Atom",
       "level": "3"
-    },
-    {
-      "skill": "Bootstrap",
-      "level": "2"
     },
     {
       "skill": "GitHub",
